@@ -39,10 +39,10 @@ Funchess is currently closed to further contributions - we are working on rebuil
 - If you want to use a CAPTCHA:
     - Add your client secret as `RECAPTCHA_SECRET=<secret>` to the .env file
     - Open `src/public/pages/report/index.html`, find `data-sitekey` and replace the value with your reCAPTCHA public site key
-- Run `sudo docker build . -t freechess` to build the image
+- Run `sudo docker build . -t funchess` to build the image
 
-### Start a Docker container with the freechess image
-- Run `sudo docker run -d -P freechess`
+### Start a Docker container with the funchess image
+- Run `sudo docker run -d -P funchess`
 - If you wish to choose the port instead of Docker choosing one for you, replace `-P` with `-p <port>:80`
 
 
