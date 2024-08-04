@@ -1,6 +1,6 @@
 FROM node:20
 
-LABEL name="wintrcat/freechess"
+LABEL name="Anand/funchess"
 LABEL version="1.0.0"
 
 WORKDIR /usr/app/
